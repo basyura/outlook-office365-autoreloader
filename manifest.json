@@ -1,0 +1,12 @@
+{
+  "name": "outlook-office365-autoreloader",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This plugin reload outlook.office365 automatically to avoid sign out.",
+  "content_scripts": [{
+    "matches": ["https://outlook.office365.com/mail/*"],
+    "js": [
+      "content_scripts/content.js"
+    ]
+  }]
+}
