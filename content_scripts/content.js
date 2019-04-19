@@ -14,3 +14,7 @@ window.onload = function() {
 window.onmousemove = function() {
   date = new Date();
 };
+
+window.onkeyup = function() {
+  date = new Date();
+};
